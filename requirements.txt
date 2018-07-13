@@ -1,31 +1,23 @@
-# Utils
-requests
-aiohttp
-captcha_solver
-python-dateutil
+hues  # Логгирование с указанием времени и цвета
 
-# Geo stuff
-geopy
+requests  # Синхронные HTTP Запросы
 
-# XML parsing
-xmltodict
-defusedxml
+aiohttp # Асинхронные HTTP запросы
+peewee # Запросы к БД
 
-# Drawing
-Pillow
+aiomysql # Асинхронные запросы к БД
+aiopg # Асинхронные запросы к БД
+peewee_async # Асинхронные запросы к БД
 
-# QR code
-qrcode
+captcha_solver  # Решение Captcha
 
-# Data and bases
-psycopg2-binary
-peewee==2.10.2
-peewee_async
-aiomysql
-aiopg
-tinydb
+langdetect  # Определение языка в плагине озвучивания текста
+gTTS  # Озвучивание текста через Google TTS
 
-# Language pluings
-gTTS
-transliterate
-langdetect
+Pillow  # Работа с изображениями
+
+xmltodict  # Работа с XML
+chatterbot # Чат-бот
+
+python-dateutil  # Работа с датами
+qrcode  # Работа с QR кодами
